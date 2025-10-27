@@ -14,11 +14,11 @@ Built entirely on *MariaDB SkySQL, the platform unifies **transactional (OLTP)* 
 
 ## 👥 Team: ColumnStore Crusaders
 
-| Member | Role | Responsibilities |
-|---------|------|------------------|
-| *Samriddhi Thakur* | Graphic Designer, Frontend Developer
-| *Riya Patel* | Backend Development, , Database Development, Full Stack Development,
-| *Kartik Sharma* |Database development, Machine learning,Cloud integration
+| Member | Role |
+|---------|------|
+| *Samriddhi Thakur* | Graphic Designer, Frontend Developer |
+| *Riya Patel* | Backend Development, Database Development, Full Stack Development |
+| *Kartik Sharma* | Database Development, Machine Learning, Cloud Integration |
 
 ---
 
@@ -74,7 +74,7 @@ It combines predictive analytics, anomaly detection, and diagnostic intelligence
 | Category | Technologies |
 |-----------|---------------|
 | *Database* | MariaDB SkySQL |
-| *Engines* | ColumnStore (Analytics), Temporal Tables (Auditing), Vector Engine (Real-Time Similarity Search) |
+| *Engines* | INNODB (Analytics), Temporal Tables (Auditing), Vector Engine (Real-Time Similarity Search) |
 | *Backend* | Python, Flask / FastAPI |
 | *Machine Learning* | TensorFlow, Scikit-learn |
 | *Frontend* | React.js, HTML5, Chart.js for visualization |
