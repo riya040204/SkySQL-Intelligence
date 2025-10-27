@@ -14,11 +14,11 @@ Built entirely on *MariaDB SkySQL, the platform unifies **transactional (OLTP)* 
 
 ## 👥 Team: ColumnStore Crusaders
 
-| Member | Role | Responsibilities |
-|---------|------|------------------|
-| *Samriddhi Thakur* | Graphic Designer, Frontend Developer
-| *Riya Patel* | Backend Development, , Database Development, Full Stack Development,
-| *Kartik Sharma* |Database development, Machine learning,Cloud integration
+| Member | Role |
+|---------|------|
+| *Samriddhi Thakur* | Graphic Designer, Frontend Developer |
+| *Riya Patel* | Backend Development, Database Development, Full Stack Development |
+| *Kartik Sharma* | Database Development, Machine Learning, Cloud Integration |
 
 ---
 
