@@ -68,6 +68,8 @@ It combines predictive analytics, anomaly detection, and diagnostic intelligence
 | *System Latency (ms)* | Real-time data query response time |
 
 ---
+<img width="1401" height="734" alt="metrics" src="https://github.com/user-attachments/assets/a82f36d6-4148-4ec8-b529-275aaf30bff3" />
+
 
 ## ⚙ Frameworks / Tools / Tech Stack
 
