@@ -74,7 +74,7 @@ It combines predictive analytics, anomaly detection, and diagnostic intelligence
 | Category | Technologies |
 |-----------|---------------|
 | *Database* | MariaDB SkySQL |
-| *Engines* | ColumnStore (Analytics), Temporal Tables (Auditing), Vector Engine (Real-Time Similarity Search) |
+| *Engines* | INNODB (Analytics), Temporal Tables (Auditing), Vector Engine (Real-Time Similarity Search) |
 | *Backend* | Python, Flask / FastAPI |
 | *Machine Learning* | TensorFlow, Scikit-learn |
 | *Frontend* | React.js, HTML5, Chart.js for visualization |
