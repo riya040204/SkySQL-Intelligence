@@ -1,0 +1,20 @@
+# SkySQL Intelligence - Core Dependencies
+# Minimal production requirements for airline efficiency platform
+
+# Web Framework
+Flask==2.3.3
+
+# CORS Handling
+Flask-CORS==4.0.0
+
+# MariaDB Database Connection
+mysql-connector-python==8.2.0
+
+# Environment Configuration
+python-dotenv==1.0.0
+
+# HTTP Client for External APIs
+requests==2.31.0
+
+# Enhanced Date/Time Utilities
+python-dateutil==2.8.2

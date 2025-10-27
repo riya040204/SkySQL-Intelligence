@@ -1,0 +1,86 @@
+2025-10-22 01:43:31,388 - __main__ - INFO - Database connection established
+2025-10-22 01:43:31,447 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.10:8000
+2025-10-22 01:43:31,448 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-22 01:46:01,146 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 01:46:01] "GET / HTTP/1.1" 200 -
+2025-10-22 01:46:01,298 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 01:46:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-22 01:46:06,368 - __main__ - ERROR - Error fetching metrics: bytearray index out of range
+2025-10-22 01:46:06,369 - __main__ - ERROR - Error fetching routes: bytearray index out of range
+2025-10-22 01:46:06,369 - __main__ - ERROR - Error fetching dashboard summary: bytearray index out of range
+2025-10-22 01:46:06,370 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 01:46:06] "[35m[1mGET /api/metrics HTTP/1.1[0m" 500 -
+2025-10-22 01:46:06,371 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 01:46:06] "[35m[1mGET /api/routes HTTP/1.1[0m" 500 -
+2025-10-22 01:46:06,372 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 01:46:06] "[35m[1mGET /api/dashboard/summary HTTP/1.1[0m" 500 -
+2025-10-22 01:48:26,402 - __main__ - INFO - Database connection established
+2025-10-22 01:48:26,422 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 01:48:26] "GET /api/dashboard/summary HTTP/1.1" 200 -
+2025-10-22 01:48:31,101 - __main__ - ERROR - Query execution error: 1054 (42S22): Unknown column 'r.destination_airport' in 'field list'
+2025-10-22 01:48:31,102 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 01:48:31] "[35m[1mGET /api/analytics/efficiency HTTP/1.1[0m" 500 -
+2025-10-22 01:48:35,319 - __main__ - ERROR - Query execution error: 1054 (42S22): Unknown column 'route_id' in 'field list'
+2025-10-22 01:48:35,320 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 01:48:35] "[35m[1mGET /api/metrics HTTP/1.1[0m" 500 -
+2025-10-22 01:48:36,387 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 01:48:36] "GET /api/dashboard/summary HTTP/1.1" 200 -
+2025-10-22 01:48:39,683 - __main__ - ERROR - Query execution error: 1054 (42S22): Unknown column 'manufacturer' in 'field list'
+2025-10-22 01:48:39,685 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 01:48:39] "[35m[1mGET /api/config/aircraft HTTP/1.1[0m" 500 -
+2025-10-22 01:49:07,322 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 01:49:07] "GET /api/dashboard/summary HTTP/1.1" 200 -
+2025-10-22 01:53:25,372 - __main__ - INFO - Database connection established
+2025-10-22 01:53:25,392 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.10:8000
+2025-10-22 01:53:25,392 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-22 01:54:07,319 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 01:54:07] "GET /api/dashboard/summary HTTP/1.1" 200 -
+2025-10-22 01:54:17,465 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 01:54:17] "GET / HTTP/1.1" 200 -
+2025-10-22 01:54:30,021 - werkzeug - INFO - 192.168.1.10 - - [22/Oct/2025 01:54:30] "GET / HTTP/1.1" 200 -
+2025-10-22 01:54:30,090 - werkzeug - INFO - 192.168.1.10 - - [22/Oct/2025 01:54:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-22 01:54:40,672 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 01:54:40] "GET / HTTP/1.1" 200 -
+2025-10-22 01:54:40,747 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 01:54:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-22 01:54:43,723 - werkzeug - INFO - 192.168.1.10 - - [22/Oct/2025 01:54:43] "GET / HTTP/1.1" 200 -
+2025-10-22 01:54:50,172 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 01:54:50] "GET / HTTP/1.1" 200 -
+2025-10-22 01:54:54,077 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 01:54:54] "GET /api/dashboard/summary HTTP/1.1" 200 -
+2025-10-22 01:54:54,385 - __main__ - ERROR - Error fetching routes: bytearray index out of range
+2025-10-22 01:54:54,385 - __main__ - ERROR - Error fetching metrics: bytearray index out of range
+2025-10-22 01:54:54,385 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 01:54:54] "[35m[1mGET /api/routes HTTP/1.1[0m" 500 -
+2025-10-22 01:54:54,386 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 01:54:54] "[35m[1mGET /api/metrics HTTP/1.1[0m" 500 -
+2025-10-22 01:55:07,313 - __main__ - ERROR - Error fetching dashboard summary: bytearray index out of range
+2025-10-22 01:55:07,314 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 01:55:07] "[35m[1mGET /api/dashboard/summary HTTP/1.1[0m" 500 -
+2025-10-22 02:05:38,234 - __main__ - INFO - Database connection established
+2025-10-22 02:05:38,256 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.10:8000
+2025-10-22 02:05:38,256 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-22 02:06:16,156 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 02:06:16] "GET / HTTP/1.1" 200 -
+2025-10-22 02:07:20,233 - __main__ - ERROR - Error fetching dashboard summary: bytearray index out of range
+2025-10-22 02:07:20,234 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 02:07:20] "[35m[1mGET /api/dashboard/summary HTTP/1.1[0m" 500 -
+2025-10-22 02:55:39,327 - __main__ - INFO - Database connection established
+2025-10-22 02:55:39,349 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.10:8000
+2025-10-22 02:55:39,349 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-22 02:56:07,477 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 02:56:07] "GET / HTTP/1.1" 200 -
+2025-10-22 02:56:16,432 - __main__ - INFO - Database connection established
+2025-10-22 02:56:16,450 - __main__ - ERROR - Query execution error: 1054 (42S22): Unknown column 'route_id' in 'field list'
+2025-10-22 02:56:16,451 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 02:56:16] "[35m[1mGET /api/metrics HTTP/1.1[0m" 500 -
+2025-10-22 02:56:29,181 - __main__ - ERROR - Query execution error: 1054 (42S22): Unknown column 'r.destination_airport' in 'field list'
+2025-10-22 02:56:29,182 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 02:56:29] "[35m[1mGET /api/analytics/efficiency HTTP/1.1[0m" 500 -
+2025-10-22 02:56:30,258 - __main__ - ERROR - Query execution error: 1054 (42S22): Unknown column 'r.destination_airport' in 'field list'
+2025-10-22 02:56:30,260 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 02:56:30] "[35m[1mGET /api/analytics/efficiency HTTP/1.1[0m" 500 -
+2025-10-22 12:56:51,886 - __main__ - INFO - Database connection established
+2025-10-22 12:56:51,915 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.10:8000
+2025-10-22 12:56:51,915 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-22 12:58:34,605 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:58:34] "GET /api/health HTTP/1.1" 200 -
+2025-10-22 12:58:34,679 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:58:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-22 12:59:12,010 - __main__ - ERROR - Query execution error: 1054 (42S22): Unknown column 'active' in 'field list'
+2025-10-22 12:59:12,013 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:59:12] "[35m[1mGET /api/airlines HTTP/1.1[0m" 500 -
+2025-10-22 12:59:31,104 - __main__ - ERROR - Query execution error: 1054 (42S22): Unknown column 'r.destination_airport' in 'field list'
+2025-10-22 12:59:31,106 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:59:31] "[35m[1mGET /api/routes HTTP/1.1[0m" 500 -
+2025-10-22 12:59:55,074 - __main__ - ERROR - Error fetching dashboard summary: bytearray index out of range
+2025-10-22 12:59:55,074 - __main__ - ERROR - Error fetching metrics: bytearray index out of range
+2025-10-22 12:59:55,075 - __main__ - ERROR - Error fetching routes: bytearray index out of range
+2025-10-22 12:59:55,076 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:59:55] "[35m[1mGET /api/dashboard/summary HTTP/1.1[0m" 500 -
+2025-10-22 12:59:55,077 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:59:55] "[35m[1mGET /api/metrics HTTP/1.1[0m" 500 -
+2025-10-22 12:59:55,079 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:59:55] "[35m[1mGET /api/routes HTTP/1.1[0m" 500 -
