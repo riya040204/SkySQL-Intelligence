@@ -16,9 +16,8 @@ Built entirely on *MariaDB SkySQL, the platform unifies **transactional (OLTP)* 
 
 | Member | Role |
 |---------|------|
-| *Samriddhi Thakur* | Graphic Designer, Frontend Developer |
-| *Riya Patel* | Backend Development, Database Development, Full Stack Development |
-| *Kartik Sharma* | Database Development, Machine Learning, Cloud Integration |
+| *Riya Patel* | Backend Development, Database Development, Full Stack Development,Graphic designer |
+| *Kartik Sharma* | Database Development, Machine Learning, Cloud Integration,Frontend Developer |
 
 ---
 
