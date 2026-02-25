@@ -43,7 +43,7 @@ Moreover, the *real-time processing of massive, diverse datasets* across dispara
 
 ## 💡 Solution Overview
 
-*SKYSQL* addresses these challenges with a *unified Predictive Aviation Intelligence Platform, powered entirely by **MariaDB SkySQL*.  
+*SKYSQL* addresses real life  challenges with a *unified Predictive Aviation Intelligence Platform, powered entirely by **MariaDB SkySQL*.  
 It combines predictive analytics, anomaly detection, and diagnostic intelligence within a single, scalable system.
 
 ### 🔍 How It Solves the Problem
@@ -99,7 +99,7 @@ MariaDB SkySQL serves as the *core engine, handling both **OLTP + OLAP workloads
 2. *Predictive Intelligence Principle* – Apply ML models to predict outcomes such as fuel burn and anomalies.  
 3. *Scalability & Reliability* – Leverage MariaDB’s distributed architecture for petabyte-scale data handling.  
 4. *Transparency & Auditability* – Maintain time-versioned records with Temporal Tables.  
-5. *Real-Time Responsiveness* – Use Vector Search for live anomaly detection and similarity matching.
+5. *Real-Time Responsiveness* – Use Vector Search for live anomaly detection and similarity matching .
 
 ---
 
